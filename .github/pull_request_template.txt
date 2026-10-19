@@ -1,0 +1,24 @@
+## Syfte och kopplat ärende
+Länka ärendet och beskriv vilket VVB-behov som löses.
+Använd Closes #... endast när ärendet blir helt löst.
+
+## Ändringar och avgränsning
+Vad ändras, vad ingår inte och påverkas kompatibilitet eller beroenden?
+
+## Verifiering
+Ange kommandon och faktiska resultat. För UI: ange Mailspring-version och OS.
+Markera ej relevanta kontroller med motivering; bygg är inte ett beteendetest.
+
+- [ ] Acceptanskriterierna är uppfyllda.
+- [ ] npm run build har körts; genererad lib/ är uppdaterad vid källkodsändring.
+- [ ] Relevanta manuella kontroller enligt README är utförda.
+- [ ] Dokumentation och kodkonventioner är uppdaterade/följda.
+- [ ] Inga hemligheter, riktiga meddelanden eller personuppgifter finns i diff/loggar.
+- [ ] Dataflöden, nätverksanrop, behörigheter och beroenden är granskade.
+
+## Risk och återställning
+Beskriv möjlig påverkan och hur ändringen återställs.
+
+## Bot-/AI-medverkan
+Ange verktyg och omfattning om tillämpligt samt ansvarig mänsklig granskare.
+Botar får inte godkänna sina egna ändringar eller kringgå grenregler.

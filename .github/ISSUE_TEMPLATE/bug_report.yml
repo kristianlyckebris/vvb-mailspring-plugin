@@ -1,0 +1,42 @@
+name: Felrapport
+description: Rapportera ett reproducerbart fel i VVB:s Mailspring-plugin.
+title: "[Fel]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Använd syntetiska exempel, inte riktiga meddelanden, kontouppgifter eller tokens.
+        Säkerhetsbrister rapporteras privat enligt säkerhetsavsnittet i README.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Fel och påverkan
+      description: Vad händer, vad förväntade du dig och hur påverkar det arbetet?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steg för att återskapa
+      description: Beskriv steg med testdata, förväntat resultat och faktiskt resultat.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Miljö
+      description: Mailspring-version, OS och plugin-version eller commit.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Felsökningsunderlag
+      description: Maskerade loggar/skärmbilder och eventuell tillfällig lösning.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptanskriterier
+      description: Vad ska kunna verifieras när felet är löst?
+    validations:
+      required: true
