@@ -1,0 +1,32 @@
+name: Teknisk uppgift
+description: Avgränsa arbete med struktur, dokumentation, underhåll eller botflöden.
+title: "[Uppgift]: "
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Syfte
+      description: Vilket VVB-behov stödjer uppgiften? Länka relaterade ärenden.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Omfattning och avgränsning
+      description: Beskriv leveranser, berörda delar och vad som inte ingår.
+    validations:
+      required: true
+  - type: textarea
+    id: responsibility
+    attributes:
+      label: Ansvar, beroenden och risker
+      description: Ange nödvändiga beslut och granskare. För botar, ange syfte, mänsklig ägare, minsta behörigheter och avveckling; aldrig tokens.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptanskriterier och verifiering
+      description: Lista vad som ska levereras och hur det kontrolleras.
+    validations:
+      required: true

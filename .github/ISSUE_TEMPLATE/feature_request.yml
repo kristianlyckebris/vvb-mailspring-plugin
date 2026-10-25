@@ -1,0 +1,32 @@
+name: Förbättringsförslag
+description: Förankra ett VVB-behov innan implementation.
+title: "[Förslag]: "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Behov och nytta för VVB
+      description: Vem behöver detta och vilket problem löser det? Använd inga personuppgifter.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Förslag och avgränsning
+      description: Beskriv föreslagen lösning, alternativ och vad som inte ingår.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Data, säkerhet och kompatibilitet
+      description: Berörs e-post, kontakter, lagring, nätverksanrop, behörigheter eller beroenden? Ange även om inget påverkas.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptanskriterier och verifiering
+      description: Lista mätbara villkor och hur lösningen ska kontrolleras.
+    validations:
+      required: true
