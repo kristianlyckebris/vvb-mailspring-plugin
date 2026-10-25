@@ -19,7 +19,7 @@
   "description": "Enter a description of your package!",
   "devDependencies": {
     "@types/react": "^16.7.22",
-    "typescript": "^3.6.3"
+    "typescript": "^7.0.2"
   },
   "license": "MIT"
 }
